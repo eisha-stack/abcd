@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { fetchComparison } from "./api.js";
 
 const DEFAULT_CUTOFF_HOUR = 12;
